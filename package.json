@@ -2,25 +2,15 @@
   "name": "todo-api",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
-  "dependencies": {
-    "underscore": "^1.8.3",
-    "body-parser": "^1.13.3",
-    "express": "^4.13.3"
-  },
-  "devDependencies": {},
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/htokekar/Todos-api.git"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/htokekar/Todos-api/issues"
-  },
-  "homepage": "https://github.com/htokekar/Todos-api#readme"
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "underscore": "^1.8.3"
+  }
 }
